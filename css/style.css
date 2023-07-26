@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    padding: 20px 2% 35px 2%;
+    height: 120px;
+}
+
+header div.logo{
+    float: left;
+}
+
+header nav.menu-desktop{
+    float: right;
+    position: relative;
+    top: 35px;
+}
+
+header nav.menu-desktop ul{
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+    float: left;
+    font-size: 20px;
+    padding: 0 20px;
+    font-style: italic;
+}
+
+header nav.menu-desktop ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav.menu-mobile{
+    margin-top: 40px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    background-image: url(../images/icon_menu.png);
+    display: none;
+}
+
+nav.menu-mobile ul{
+    width: 100%;
+    left: 0;
+    top: 102px;
+    border-bottom: 4px solid #EB2D2D;
+    z-index: 888;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    list-style-type: none;
+    display: none;
+}
+
+nav.menu-mobile li{
+    font-size: 20px;
+    padding: 20px 0px;
+    font-style: italic;
+}
+
+nav.menu-mobile li a{
+    color: black;
+    text-decoration: none;
+}
+
+section.banner{
+    width: 100%;
+    height: 100vw;
+    min-height: 600px;
+    max-height: 800px;
+    background-color: black;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.text-banner{
+    padding: 90px 30px 100px 30px;
+    font-style: italic;
+}
+
+.text-banner-single{
+    width: 334px;
+    height: 65px;
+    margin-top: 50px;
+    padding: 10px 30px 0 45px;
+    background-image: url(../images/box-text.png);
+    background-size: 100% 100%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+.text-banner .text-banner-single:nth-of-type(2){
+    width: 270px;
+    position: relative;
+    left: -10px;
+}
+
+.text-banner .text-banner-single:nth-of-type(3){
+    width: 200px;
+    position: relative;
+    left: -20px;
+}
+
+.text-banner-whitebox{
+    width: 600px;
+    height: 70px;
+    background-image: url(../images/box-white-text.png);
+    color: black;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    background-size: 70% 100%;
+    margin-top: 50px;
+    padding: 15px 15px 0 38px;
+    position: relative;
+    left: -35px;
+}
+
+section.featured-vehicles{
+    padding: 90px 2%;
+}
+
+.line-title{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.line:nth-of-type(1){
+    position: absolute;
+    height: 2px;
+    top: 20px;
+    background: black;
+    width: 100%;
+}
+
+.line-title h2{
+    position: relative;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+section.featured-vehicles .container{
+    /*max-width: 1000px;*/
+    padding: 40px 0;
+}
+
+.shop-window{
+    float: left;
+    width: 33.3%;
+}
+
+.shop-window .car-img{
+    width: 100%;
+    padding-top: 100%;
+    background-size: 100% 100%;
+    border: 8px solid white;
+}
+
+.shop-window h2{
+    padding-left: 8px;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.shop-window p{
+    padding-top: 8px;
+    padding-left: 8px;
+    color: #353535;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.btn1{
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    background-color: #EB2D2D;
+    text-decoration: none;
+    border-bottom: 5px solid #B21E1E;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    width: 150px;
+}
+
+.shop-window a{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.services-desc{
+    display: flex;
+}
+
+.half1{
+    width: 50%;
+    padding: 90px 0;
+    background: #242424;
+    color: white;
+    text-align: right;
+}
+
+.half1-wraper{
+    padding-right: 30%;
+    text-align: left;
+    display: inline-block;
+}
+
+.half1-wraper h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.half1-wraper ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.half1-wraper li{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.half1-wraper a{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 40px;
+}
+
+.half2{
+    width: 50%;
+    padding: 90px 100px;
+    background: #EB2D2D;
+    color: white;
+}
+
+.half2 h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.half2 .statement-single{
+    margin-top: 19px;
+}
+
+.half2 .statement-single p{
+    font-size: 22px;
+}
+
+.navigation{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.navigation img{
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.arrows{
+    float: left;
+}
+
+.name-statement{
+    float: right;
+    color: #252525;
+    font-size: 23px;
+}
+
+section.contact{
+    padding: 80px 2%;
+}
+
+section.contact form{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+section.contact .input-wraper{
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+section.contact input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+section.contact textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contact form .input-wraper:nth-of-type(5){
+    text-align: center;
+}
+
+section.contact input[type=submit]{
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+footer{
+    padding: 40px 2%;
+    background: #252525;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    float: left;
+    font-style: italic;
+    padding: 0 30px;
+    font-size: 19px;
+}
+
+footer nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    float: right;
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+}
+
+/*
+@media screen and (max-width: 1400px){
+    section.banner{
+        background-size: 90% auto;
+        background-position: 200% 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    section.banner{
+        background-size: cover;
+        background-position: center;
+        height: 70vw;
+        min-height: 500px;
+    }
+}
+*/
+
+@media screen and (max-width: 1100px){
+    .half1{
+        text-align: center;
+    }
+
+    .half1-wraper{
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .half1-wraper a{
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    footer nav{
+        display: none;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer p{
+        float: none;
+    }
+
+    w50{
+        width: 100%;
+    }
+
+    section.services-desc{
+        flex-direction: column;
+    }
+
+    .half1, .half2{
+        padding: 80px 4%;
+        width: 100%;
+    }
+
+    .half1{
+        text-align: center;
+        padding: 80px 100px;
+    }
+
+    section.banner{
+        background-size: cover;
+        background-position: 100px center;
+        height: 80vh;
+    }
+    nav.menu-desktop{
+        display: none;
+    }
+    nav.menu-mobile{
+        display: block;
+    }
+    .text-banner-single{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    section.banner{
+        background-size: cover;
+        background-position: center;
+        width: 120%;
+        height: 50vh;
+    }
+
+    .text-banner{
+        padding: 30px;
+    }
+    
+    .text-banner-single{
+        width: 240px;
+        height: 55px;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .text-banner-whitebox{
+        width: 420px;
+        font-size: 20px;
+        padding-left: 28px;
+        left: -20px;
+    }
+
+    section.featured-vehicles .line-title h2{
+        font-size: 23px;
+    }
+
+    section.featured-vehicles .container{
+        text-align: center;
+    }
+
+    .shop-window{
+        display: inline-block;
+        float: none;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .shop-window a{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .shop-window{
+        width: 100%;
+    }
+}

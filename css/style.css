@@ -305,12 +305,12 @@ section.featured-vehicles .container{
 }
 
 section.contact{
-    padding: 80px 2%;
+    padding: 80px 2% 0 2%;
 }
 
 section.contact form{
     max-width: 600px;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 section.contact .input-wraper{
@@ -322,15 +322,17 @@ section.contact .input-wraper{
 section.contact input[type=text]{
     width: 100%;
     border: 1px solid #ccc;
-    height: 40px;
+    height: 60px;
+    font-size: 16px;
     line-height: 40px;
     padding-left: 15px;
 }
 
 section.contact textarea{
     width: 100%;
+    font-size: 16px;
     border: 1px solid #ccc;
-    height: 120px;
+    height: 140px;
     padding: 8px;
     resize: none;
 }
@@ -356,6 +358,7 @@ section.contact input[type=submit]{
 }
 
 footer{
+    margin-top: 20px;
     padding: 40px 2%;
     background: #252525;
 }
@@ -520,6 +523,173 @@ footer p{
     margin-top: 20px;
 }
 
+section.single-sell .container{
+    padding: 40px 0 0 0;
+    text-align: center;
+    max-width: 1280pxpx;
+}
+
+section.single-sell{
+    padding: 80px 2% 0 2%;
+}
+
+.info-vehicle{
+    display: inline-block;
+    width: 60%;
+}
+
+.vehicle-desc{
+    vertical-align: top;
+    display: inline-block;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.main-img{
+    width: 100%;
+    padding-top: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vehicle-desc p{
+    font-size: 17px;
+    margin-top: 25px;
+    max-width: 360px;
+}
+
+.vehicle-desc a{
+    margin-top: 25px;
+}
+
+.nav-gallery{
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-gallery-parent{
+    width: 100%;
+    padding: 36px;
+    position: relative;
+}
+
+.arrow-left-nav{
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    background-image: url('../images/arrow-left.png');
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.arrow-right-nav{
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    background-image: url('../images/arrow-right.png');
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.nav-gallery-wraper{
+    width: 200%;
+}
+
+.mini-img-wraper{
+    float: left;
+    padding: 9px;
+    width: calc(33.3% * (100 / 200));
+}
+
+.mini-img{
+    width: 100%;
+    padding-top: 70%;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.info-bread{
+    padding: 20px 0;
+    text-align: left;
+}
+
+.info-bread a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.info-bread a:last-child{
+    color: #EB2D2D;
+}
+
+.info-bread span{
+    padding: 0 30px;
+}
+
+section.about{
+    min-height: 90%;
+    padding: 60px 2% 20px 2%;
+}
+
+section.about .container{
+    max-width: 840px;
+    margin-top: 30px;
+}
+
+section.about .main-img-about{
+    width: 100%;
+    padding-top: 60%;
+    background-color: rgb(220, 220, 220);
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url('../images/bg.jpg');
+}
+
+section.about .author-desc{
+    margin-top: 20px;
+}
+
+.author-desc h2{
+    font-size: 24px;
+}
+
+.author-desc p{
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.author-desc2{
+    margin-top: 40px;
+}
+
+.img-small{
+    width: 30%;
+    padding-top: 30%;
+    float: left;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('../images/carro1.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(220, 220, 220);
+}
+
+.author-desc2 p{
+    float: left;
+    width: 70%;
+    line-height: 28px;
+    padding: 15px;
+}
+
 /*
 @media screen and (max-width: 1400px){
     section.banner{
@@ -628,6 +798,23 @@ footer p{
     .text-banner-single{
         margin-top: 30px;
     }
+
+    .info-vehicle{
+        width: 100%;
+    }
+
+    .vehicle-desc{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .vehicle-desc a{
+        display: inline-block;
+    }
+
+    .vehicle-desc p{
+        max-width: none;
+    }
 }
 
 @media screen and (max-width: 580px){
@@ -673,6 +860,16 @@ footer p{
 
     .shop-window a{
         display: inline-block;
+    }
+
+    .img-small{
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .author-desc2 p{
+        width: 100%;
+        padding: 20px 0;
     }
 }
 
